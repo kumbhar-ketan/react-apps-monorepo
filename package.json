@@ -1,0 +1,16 @@
+{
+  "name": "monoapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "monorepo test",
+  "workspaces": {
+    "packages": ["apps/*"]
+  },
+  "dependencies": {
+    "react": "17.0.2"
+  },
+  "scripts": {
+    "web": "yarn workspace web",
+    "mobile": "yarn workspace mobile"
+  }
+}
